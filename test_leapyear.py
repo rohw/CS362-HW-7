@@ -9,6 +9,9 @@ class SimpleTest(unittest.TestCase):
     def test2(self):
         self.assertEqual(leapyear.ly(100), "It is not a leap year")
 
+    def test3(self):
+        self.assertEqual(leapyear.ly(400), "It is a leap year")
+
 
 if __name__ == '__main__':
     unittest.main()
